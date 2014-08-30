@@ -1,6 +1,6 @@
 # gulp-embedlr [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][depstat-image]][depstat-url]
 
-> Plugin for embedding a livereload snippet in html files for [gulp](https://github.com/wearefractal/gulp)
+> Plugin for embedding a livereload snippet in files for [gulp](https://github.com/wearefractal/gulp)
 
 ## Usage
 
@@ -40,7 +40,7 @@ The source of the livereload script provided (not by gulp-embedlr). Normally you
 
 ## Usage
 
-This modifies the original html-file by embedding the livereload-snippet, therefore you should not pipe it back into the same directory where you keep the original files.
+This modifies the original file by embedding the livereload-snippet, therefore you should not pipe it back into the same directory where you keep the original files.
 
 Alone, this plugin does not really do much interesting stuff, but combined with [gulp-livereload](https://github.com/vohof/gulp-livereload) and a static server you get a neat workflow.
 

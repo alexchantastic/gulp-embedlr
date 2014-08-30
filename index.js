@@ -19,8 +19,8 @@ var embedlr = function (param) {
       }));
     };
 
-    if(file.isNull() || path.extname(file.path) !== '.html') {
-      //Passthrough if not file or not html-file
+    if(file.isNull()) {
+      //Passthrough if not file
       this.push(file);
       return callback();
     }
